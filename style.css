@@ -11,16 +11,23 @@ body{
 
 .main {
     /* border: 1px solid red; */
-    width: 90%;
+    width: 75%;
     background-color: #FFFFFF;
     border-radius: 10px;
 }
-.main-picture__image {
-    width: 100%;
-}
+
 .main-section{
     padding: 5%;
 }
+
+/* --- IMAGEN --- */
+
+.main-picture__image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 /* --- TEXTOS --- */
 
 .main-section__text-zone__top-title{
@@ -29,6 +36,7 @@ body{
     font-size: small;
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin: 0.7rem 0;
 }
 .main-section__text-zone__main-title{
     font-family: "Fraunces", serif;
@@ -43,10 +51,17 @@ body{
 }
 
 /* --- PRECIOS --- */
+
+.main-section__buy-zone__price{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+}
 .price__new{
     font-family: "Fraunces", serif;
     font-weight: 700;
-    font-size: larger;
+    font-size: xx-large;
     color: #3d8168;
 }
 .price__old{
@@ -55,6 +70,7 @@ body{
     font-size: small;
     text-decoration: line-through;
 }
+
 /* --- BOTÓN --- */
 
 .submit__button{
