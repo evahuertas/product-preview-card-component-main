@@ -24,7 +24,8 @@ body{
     align-items: center;
 }
 .submit__button:hover{
-    background-color: #42b386;
+    background-color: #229868;
+    cursor: pointer;
 }
 .submit__button:active{
     background-color: #184131;
