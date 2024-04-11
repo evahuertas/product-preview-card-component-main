@@ -29,8 +29,9 @@ body{
 }
 .button__text{
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: 700;
     font-size: 14px;
-    font: Montserrat;
+    font-family: "Montserrat", sans-serif;
 }
 
