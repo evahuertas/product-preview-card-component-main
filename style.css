@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 375px;
+}
 .main {
     border: 1px solid red;
     max-width: 400px;
@@ -10,3 +13,24 @@
 .main-picture__image {
     max-width: 400px;
 }
+
+.submit__button{
+    background-color: #3d8168;
+    border-radius: 12px;
+    width: 100%;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__icon{
+    padding: 5px;
+}
+.button__text{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font: Montserrat;
+}
+
