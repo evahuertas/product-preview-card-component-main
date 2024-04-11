@@ -19,16 +19,15 @@ body{
     border-radius: 10px;
     border: none;
     width: 100%;
-    margin: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .submit__button:hover{
-    color: #42b386;
+    background-color: #42b386;
 }
 .submit__button:active{
-    color: #184131;
+    background-color: #184131;
 }
 .button__icon{
     padding: 5px;
