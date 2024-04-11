@@ -4,15 +4,27 @@
 
 body{
     width: 375px;
-}
-.main {
-    border: 1px solid red;
-    max-width: 400px;
+    background-color: #f3eae3;
 }
 
-.main-picture__image {
-    max-width: 400px;
+/* --- MAIN --- */
+
+.main {
+    /* border: 1px solid red; */
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
+.main-picture__image {
+    width: 100%;
+}
+.main-section{
+    padding: 5%;
+}
+/* --- TEXTOS --- */
+
+
+/* --- BOTÓN --- */
 
 .submit__button{
     background-color: #3d8168;
