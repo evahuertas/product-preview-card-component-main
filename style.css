@@ -23,7 +23,38 @@ body{
 }
 /* --- TEXTOS --- */
 
+.main-section__text-zone__top-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.main-section__text-zone__main-title{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    line-height: 1;
+}
+.main-section__text-zone__description{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    line-height: 1.7;
+}
 
+/* --- PRECIOS --- */
+.price__new{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: larger;
+    color: #3d8168;
+}
+.price__old{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    text-decoration: line-through;
+}
 /* --- BOTÓN --- */
 
 .submit__button{
